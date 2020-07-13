@@ -1,0 +1,51 @@
+.feed {
+  padding-bottom: 70px;
+
+
+  &__item {
+    display: flex;
+    &:nth-child(2) {
+      margin-top: 70px;
+    }
+  }
+
+  &__img {
+    margin-right: 62px;
+    width: 169px;
+    height: 169px;
+  }
+
+  &__text {
+    padding-right: 60px;
+  }
+
+  &__subtitle {
+    color: $text-color;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__count {
+    margin-top: 10px;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  &__descr {
+    margin-top: 10px;
+    color: $text-color;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  hr {
+    color: #f6f6f6;
+    background-color: #f6f6f6;
+    border: none;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
